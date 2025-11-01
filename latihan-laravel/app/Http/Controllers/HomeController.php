@@ -8,4 +8,9 @@ class HomeController extends Controller
     {
         return view('pages.app.home');
     }
+
+    public function todoDetail()
+    {
+        return view('pages.app.todos.detail');
+    }
 }
